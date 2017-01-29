@@ -6,7 +6,7 @@
     <c:import url="jsp/static/header.jsp"></c:import>
 </head>
 <body>
-<c:import url="jsp/static/auth_menu.jsp" />
+<c:import url="jsp/static/nonauth_menu.jsp" />
 <br/>
 <div class="container">
     Home
