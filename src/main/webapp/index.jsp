@@ -1,16 +1,16 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: gs
-  Date: 29.01.2017
-  Time: 19:44
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
     <title>Title</title>
+    <c:import url="jsp/static/header.jsp"></c:import>
 </head>
 <body>
-home
+<c:import url="jsp/static/auth_menu.jsp" />
+<br/>
+<div class="container">
+    Home
+</div>
+<c:import url="/jsp/static/footer.jsp" />
 </body>
 </html>
