@@ -3,16 +3,13 @@ package com.gramazski.blog.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
-import java.io.Serializable;
 
 /**
- * Created by gs on 29.01.2017.
+ * Created by gs on 03.02.2017.
  */
 @Entity
-@Table(name = "USER")
-public class User implements Serializable {
-    private static final long serialVersionUID = -5527566248002296042L;
-
+@Table
+public class User {
     @Id
     @GenericGenerator(name="kaugen" , strategy="increment")
     @GeneratedValue(generator="kaugen")
